@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "1_Intro",
+					"name" : "exercice_1_4",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "1_Intro::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-1_Intro-Debug-b2c753f292e7f026785b.json",
-					"name" : "1_Intro",
+					"id" : "exercice_1_4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exercice_1_4-Debug-d2c585f73cd2a681aaf3.json",
+					"name" : "exercice_1_4",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/robin/Documents/HEIG/heig-vd-git/cours/Prog 1/1 Intro/cmake-build-debug",
-		"source" : "C:/Users/robin/Documents/HEIG/heig-vd-git/cours/Prog 1/1 Intro"
+		"build" : "C:/Users/robin/Documents/HEIG/heig-vd-git/cours/Prog 1/exercice_1.4/cmake-build-debug",
+		"source" : "C:/Users/robin/Documents/HEIG/heig-vd-git/cours/Prog 1/exercice_1.4"
 	},
 	"version" : 
 	{
