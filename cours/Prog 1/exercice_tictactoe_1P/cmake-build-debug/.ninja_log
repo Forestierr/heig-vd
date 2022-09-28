@@ -1,11 +1,5 @@
 # ninja log v5
-1	284	6859914008627131	CMakeFiles/exercice_tictactoe_1P.dir/main.cpp.obj	98ef754d396f1658
-286	346	6859914009226889	exercice_tictactoe_1P.exe	ff5b585abbbd36e7
-1	271	6859914666906109	CMakeFiles/exercice_tictactoe_1P.dir/main.cpp.obj	98ef754d396f1658
-271	339	6859914667571413	exercice_tictactoe_1P.exe	ff5b585abbbd36e7
-1	272	6859917819464898	CMakeFiles/exercice_tictactoe_1P.dir/main.cpp.obj	98ef754d396f1658
-272	329	6859917820024886	exercice_tictactoe_1P.exe	ff5b585abbbd36e7
-2	271	6859920584333454	CMakeFiles/exercice_tictactoe_1P.dir/main.cpp.obj	98ef754d396f1658
-271	328	6859920584884413	exercice_tictactoe_1P.exe	ff5b585abbbd36e7
-2	286	6859921068797564	CMakeFiles/exercice_tictactoe_1P.dir/main.cpp.obj	98ef754d396f1658
-286	348	6859921069447734	exercice_tictactoe_1P.exe	ff5b585abbbd36e7
+8	584	6860807165630802	CMakeFiles/exercice_tictactoe_1P.dir/test.cpp.obj	c20bf5875aa0c274
+3	614	6860807165940823	CMakeFiles/exercice_tictactoe_1P.dir/main.cpp.obj	98ef754d396f1658
+648	833	6860737904124344	exercice_tictactoe_1P.exe	ff5b585abbbd36e7
+2	216	6860816789927680	build.ninja	c13ac1a0259c4584

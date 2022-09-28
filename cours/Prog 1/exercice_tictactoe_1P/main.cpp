@@ -62,14 +62,17 @@ void draw(char board[9], char player)
 {
     for (int i = 0; i < 9; i++)
     {
-        cout << board[i] << "  ";
-
-        if (i == 2 || i == 5 || i == 8)
+        cout << " " << board[i];
+        if (i == 2 || i == 5)
         {
-            cout << "\n";
+            cout << "\n---+---+---\n";
+        }
+        else if(i != 8)
+        {
+            cout << " |";
         }
     }
-    cout << "C'est aux player : " << player << " de jouer !" << endl;
+    cout << "\n\nC'est aux player : " << player << " de jouer !" << endl;
 }
 
 int main() {
@@ -148,21 +151,21 @@ int main() {
                 }
             }
         }
-            // Emplacement déjà occupé
+        // Emplacement déjà occupé
         else
         {
             cout << "Cette position est deja prise !" << endl;
         }
     }
-
+    // dessine la dernière grille.
     for (int i = 0; i < 9; i++)
     {
         cout << board[i] << "  ";
-
         if (i == 2 || i == 5 || i == 8)
         {
             cout << "\n";
         }
     }
+
     return 0;
 }
