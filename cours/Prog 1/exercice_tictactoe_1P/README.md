@@ -6,11 +6,11 @@ Pour le mode 2 player, chacun joue quand son symbole apparait.
 
 Pour indiquer la position de jeu :
 
-0 | 1 | 2
---+---+--
-3 | 4 | 5
---+---+--
-6 | 7 | 8
+0 | 1 | 2  
+--+---+--  
+3 | 4 | 5  
+--+---+--  
+6 | 7 | 8  
 
 ## 1 Player easy
 
