@@ -2,11 +2,25 @@
 
 ## 2 Player
 
+Pour le mode 2 player, chacun joue quand son symbole apparait.
+
+Pour indiquer la position de jeu :
+
+0 | 1 | 2
+--+---+--
+3 | 4 | 5
+--+---+--
+6 | 7 | 8
+
 ## 1 Player easy
+
+Le mode 1 player easy, est un mode ou l'ordinateur joue aléatoirement.
 
 ## 1 Player hard
 
 ### Min Max algorithms
+
+> Non implémenter !
 
 https://fr.wikipedia.org/wiki/Algorithme_minimax
 
