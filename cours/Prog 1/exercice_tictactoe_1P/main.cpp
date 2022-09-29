@@ -1,3 +1,15 @@
+/*
+ * exercice_tictactoe_1P
+ * main.cpp
+ * author: Robin Forestier
+ * 29.09.2022
+ * Explications : Jeu du tic tac toe, 1 ou 2 joueurs.
+ *                Quand le jeu ce lance, vous pouvez choisir entre 2 joueur ou 1 joueurs (easy) / 1 joueur (hard) pas implémenter.
+ *                Puis antrer un chiffre 0 à 8 pour celectionner la place ou vous voulez jouer.
+ *
+ * https://xkcd.com/832/
+ */
+
 #include <iostream>
 
 using namespace std;
@@ -154,6 +166,7 @@ int main() {
         // Emplacement déjà occupé
         else
         {
+            system("cls");
             cout << "Cette position est deja prise !" << endl;
         }
     }
