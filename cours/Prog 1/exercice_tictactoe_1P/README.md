@@ -18,13 +18,16 @@ Le mode 1 player easy, est un mode ou l'ordinateur joue aléatoirement.
 
 ## 1 Player hard
 
-### Min Max algorithms
+### Minimax algorithms
 
-> Non implémenter !
+L'algorithme minimax, est un algorithme minimisant les chance de perdre.
+Il va réaliser chaque possibilité de grille est y attribuer des points.
+Si il gagne +10, si il perd -10 et 0 en cas d'égalité.
+Grace a cela, il peut donc trouver la position avec la plus grande chance de victoire.
 
-https://fr.wikipedia.org/wiki/Algorithme_minimax
+[Wikipedia Minimax](https://fr.wikipedia.org/wiki/Algorithme_minimax)
 
-Pseudo code de l'algorithms (Wikipedia article) :
+Pseudo code de l'algorithme (Wikipedia article) :
 ```
 function minimax(node, depth, maximizingPlayer) is
     if depth = 0 or node is a terminal node then
@@ -40,23 +43,7 @@ function minimax(node, depth, maximizingPlayer) is
     return value
 ```
 
-Ou alpha beta :
-
-https://fr.wikipedia.org/wiki/Élagage_alpha-bêta
-
-```
-fonction alphabeta(nœud, α, β) /* α < β */
-   si nœud est une feuille alors
-       retourner la valeur de nœud
-   sinon
-       v = -∞
-       pour tout fils de nœud faire
-           v = max(v, -alphabeta(fils, -β, -α))     
-           si v ≥ β alors
-               retourner v
-           α = max(α, v)
-       retourner v
-```
+[geeksforgeeks Minimax Algorithm](https://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-3-tic-tac-toe-ai-finding-optimal-move/)
 
 ## Solution
 ![](tic_tac_toe.png)
