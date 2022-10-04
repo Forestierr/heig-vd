@@ -216,7 +216,6 @@ int findBestMove(char board[9])
             // best/
             if (moveVal > bestVal)
             {
-                cout << i << endl;
                 move = i;
                 bestVal = moveVal;
             }
@@ -264,7 +263,6 @@ int main() {
         else if(gameType == 3 && player == 'O')
         {
             place = findBestMove(board);
-            cout << place << endl;
         }
 
         // si la place est libre
