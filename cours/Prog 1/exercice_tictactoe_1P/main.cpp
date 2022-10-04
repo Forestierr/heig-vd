@@ -58,11 +58,7 @@ bool win(char board[9], char player)
  */
 bool checkEmpty(char place, char board[9])
 {
-    if (board[place] == '.')
-    {
-        return true;
-    }
-    return false;
+    return board[place] == '.';
 }
 
 /*
@@ -84,7 +80,7 @@ void draw(char board[9], char player)
             cout << " |";
         }
     }
-    cout << "\n\nC'est aux player : " << player << " de jouer !" << endl;
+    cout << "\n\nC'est aux joueur : " << player << " de jouer !" << endl;
 }
 
 int evaluate(char board[9])
@@ -255,10 +251,10 @@ int main() {
         {
             cin >> place;
         }
-        else if(gameType == 2 && player == 'O')
-        {
-            cout << "here" << endl;
-            place = rand() % 9;
+        else if(gameType == 2 && player == 'O') {
+            do {
+                place = rand() % 9;
+            }while (!checkEmpty(place, board));
         }
         else if(gameType == 3 && player == 'O')
         {
@@ -317,6 +313,5 @@ int main() {
             cout << "\n";
         }
     }
-
     return 0;
 }
