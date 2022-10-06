@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project integrity="8d07c13e250dc2b05204786f7d7a2fd1a1b170ac" source="2.16.8.t" version="1.0">
+  This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
+
+  <lib desc="#Wiring" name="0"/>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2">
+    <tool name="Multiplexer">
+      <a name="enable" val="false"/>
+    </tool>
+    <tool name="Demultiplexer">
+      <a name="enable" val="false"/>
+    </tool>
+  </lib>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4">
+    <tool name="ROM">
+      <a name="contents">addr/data: 8 8
+0
+</a>
+    </tool>
+  </lib>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#HDL-IP" name="6">
+    <tool name="VHDL Entity">
+      <a name="content">--------------------------------------------------------------------------------
+-- HEIG-VD, institute REDS, 1400 Yverdon-les-Bains
+-- Project :
+-- File    :
+-- Autor   :
+-- Date    :
+--
+--------------------------------------------------------------------------------
+-- Description :
+--
+--------------------------------------------------------------------------------
+
+library ieee;
+  use ieee.std_logic_1164.all;
+  --use ieee.numeric_std.all;
+
+entity VHDL_Component is
+  port(
+  ------------------------------------------------------------------------------
+  --Insert input ports below
+    horloge_i  : in  std_logic;                    -- input bit example
+    val_i      : in  std_logic_vector(3 downto 0); -- input vector example
+  ------------------------------------------------------------------------------
+  --Insert output ports below
+    max_o      : out std_logic;                    -- output bit example
+    cpt_o      : out std_logic_Vector(3 downto 0)  -- output vector example
+    );
+end VHDL_Component;
+
+--------------------------------------------------------------------------------
+--Complete your VHDL description below
+architecture type_architecture of VHDL_Component is
+
+
+begin
+
+
+end type_architecture;
+</a>
+    </tool>
+  </lib>
+  <lib desc="#TCL" name="7">
+    <tool name="TclGeneric">
+      <a name="content">library ieee;
+use ieee.std_logic_1164.all;
+
+entity TCL_Generic is
+  port(
+    --Insert input ports below
+    horloge_i  : in  std_logic;                    -- input bit example
+    val_i      : in  std_logic_vector(3 downto 0); -- input vector example
+
+	  --Insert output ports below
+    max_o      : out std_logic;                    -- output bit example
+    cpt_o      : out std_logic_Vector(3 downto 0)  -- output vector example
+  );
+end TCL_Generic;
+</a>
+    </tool>
+  </lib>
+  <lib desc="#Base" name="8">
+    <tool name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+  </lib>
+  <main name="Add1bit"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+    <a name="tickmain" val="half_period"/>
+  </options>
+  <mappings>
+    <tool lib="8" map="Button2" name="Menu Tool"/>
+    <tool lib="8" map="Ctrl Button1" name="Menu Tool"/>
+    <tool lib="8" map="Button3" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="8" name="Poke Tool"/>
+    <tool lib="8" name="Edit Tool"/>
+    <tool lib="8" name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+    <sep/>
+    <tool lib="0" name="Pin">
+      <a name="owner" val="autogen:unknown"/>
+      <a name="date" val="06.10.16 10:33:06"/>
+      <a name="version" val="2.11.3"/>
+      <a name="uuid" val="2f28ab4b-bed4-4574-9128-ad3f1710096e"/>
+      <a name="integrity" val="e47ab2270ab61d2e4939fdedcf2c6ba761ddc9a0"/>
+    </tool>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+      <a name="owner" val="autogen:unknown"/>
+      <a name="date" val="06.10.16 10:33:06"/>
+      <a name="version" val="2.11.3"/>
+      <a name="uuid" val="ff4849fb-7af7-4df9-97c2-06c72bf53593"/>
+      <a name="integrity" val="76477b6334a8585f4757f9a5dda2c94dfa237956"/>
+    </tool>
+    <tool lib="1" name="NOT Gate">
+      <a name="owner" val="autogen:unknown"/>
+      <a name="date" val="06.10.16 10:33:06"/>
+      <a name="version" val="2.11.3"/>
+      <a name="uuid" val="6e0ea7db-0166-4dd3-9b63-c55a9f5706bc"/>
+      <a name="integrity" val="a9b94db2c2e282f10a74ea3963b466308cede0fc"/>
+    </tool>
+    <tool lib="1" name="AND Gate">
+      <a name="owner" val="autogen:unknown"/>
+      <a name="date" val="06.10.16 10:33:06"/>
+      <a name="version" val="2.11.3"/>
+      <a name="uuid" val="f1852df2-0476-42bd-b15d-617694d921dc"/>
+      <a name="integrity" val="49b47d9a6a238449eacd7c8934288377551adcfa"/>
+    </tool>
+    <tool lib="1" name="OR Gate">
+      <a name="owner" val="autogen:unknown"/>
+      <a name="date" val="06.10.16 10:33:06"/>
+      <a name="version" val="2.11.3"/>
+      <a name="uuid" val="35939d6a-c1bc-402d-9389-8355d2fb1bfa"/>
+      <a name="integrity" val="8e2d311607a576936f5f2ef1698c12c63944e8b1"/>
+    </tool>
+  </toolbar>
+  <circuit name="Add1bit">
+    <a name="circuit" val="Add1bit"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif bold 12"/>
+    <a name="circuitnamedbox" val="true"/>
+    <a name="circuitvhdlpath" val=""/>
+    <comp lib="0" loc="(80,60)" name="Pin">
+      <a name="label" val="a_i"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="03.09.19 14:29:11"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="6d53be43-4f4b-4338-a542-0760d9a23adb"/>
+      <a name="integrity" val="169638afaf496a2f2feeb47a4ebaa2cbd4f64d11"/>
+    </comp>
+    <comp lib="0" loc="(80,100)" name="Pin">
+      <a name="label" val="b_i"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="03.09.19 14:29:11"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="f35c702a-c001-4050-8642-baa958270339"/>
+      <a name="integrity" val="e8284b92175f0ad7212fa4cb2434bc59bb5d9c8c"/>
+    </comp>
+    <comp lib="0" loc="(80,140)" name="Pin">
+      <a name="label" val="c_i"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="03.09.19 14:29:11"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="f35c702a-c001-4050-8642-baa958270339"/>
+      <a name="integrity" val="e8284b92175f0ad7212fa4cb2434bc59bb5d9c8c"/>
+    </comp>
+    <comp lib="0" loc="(580,100)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="r_o"/>
+      <a name="labelloc" val="east"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="03.09.19 14:29:28"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="b31f3ebe-f497-40f4-a68d-acaf001d6681"/>
+      <a name="integrity" val="9e4b5b2dde232d86a566b745609fc467442c75b3"/>
+    </comp>
+    <comp lib="0" loc="(580,290)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="c_o"/>
+      <a name="labelloc" val="east"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="03.09.19 14:29:28"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="b54aa46e-7c54-4f9a-b283-73813d84a601"/>
+      <a name="integrity" val="df5a94b6232df65f5180a1bbfcbb62412b7b1de1"/>
+    </comp>
+    <comp lib="7" loc="(4,50)" name="Text" trackercomp="true">
+      <a name="text" val="Attention, votre version de Logisim"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,100)" name="Text" trackercomp="true">
+      <a name="text" val="ne contient pas de tracker. Si vous"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,150)" name="Text" trackercomp="true">
+      <a name="text" val="enregistrez votre projet, toutes les"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,200)" name="Text" trackercomp="true">
+      <a name="text" val="informations du tracker seront"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,250)" name="Text" trackercomp="true">
+      <a name="text" val="définitivement effacées."/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+  </circuit>
+  <circuit name="Add4bit">
+    <a name="circuit" val="Add4bit"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif bold 12"/>
+    <a name="circuitnamedbox" val="true"/>
+    <a name="circuitvhdlpath" val=""/>
+    <comp lib="0" loc="(70,200)" name="Pin">
+      <a name="label" val="c_i"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="03.09.19 14:30:33"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="2d88ac44-ea11-43c2-bdc5-cdad56b2286a"/>
+      <a name="integrity" val="d59f2d9bbe8bf244817b802995af495a7640b407"/>
+    </comp>
+    <comp lib="0" loc="(90,290)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="label" val="a_i"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="03.09.19 14:30:45"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="0e4a18cb-4271-4c24-832d-29df2cb0e105"/>
+      <a name="integrity" val="a4da2e7bf52d4ef2c2688d99767651ff6f1f52f9"/>
+    </comp>
+    <comp lib="0" loc="(90,410)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="label" val="b_i"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="03.09.19 14:30:45"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="a508b210-c24c-4a85-a49c-ae5a220f131f"/>
+      <a name="integrity" val="298c1bb2ee1e00c7f99127e91d5a3db6f94a1aa4"/>
+    </comp>
+    <comp lib="0" loc="(600,480)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="c_o"/>
+      <a name="labelloc" val="east"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="03.09.19 14:31:05"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="85cdadb7-37c9-4af2-9a5f-52e5f6bb258e"/>
+      <a name="integrity" val="38fe263acc2636f46494a6963debfe94f25fb441"/>
+    </comp>
+    <comp lib="0" loc="(590,280)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="4"/>
+      <a name="label" val="r_o"/>
+      <a name="labelloc" val="east"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="03.09.19 14:31:05"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="0f5df81b-0cdb-44a4-84e6-7573c4c5f0b6"/>
+      <a name="integrity" val="84babe62b8eee9c4c62446bd6c273bb5f70a72f9"/>
+    </comp>
+    <comp lib="7" loc="(4,50)" name="Text" trackercomp="true">
+      <a name="text" val="Attention, votre version de Logisim"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,100)" name="Text" trackercomp="true">
+      <a name="text" val="ne contient pas de tracker. Si vous"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,150)" name="Text" trackercomp="true">
+      <a name="text" val="enregistrez votre projet, toutes les"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,200)" name="Text" trackercomp="true">
+      <a name="text" val="informations du tracker seront"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,250)" name="Text" trackercomp="true">
+      <a name="text" val="définitivement effacées."/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+  </circuit>
+  <circuit name="Sub4bit">
+    <a name="circuit" val="Sub4bit"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif bold 12"/>
+    <a name="circuitnamedbox" val="true"/>
+    <a name="circuitvhdlpath" val=""/>
+    <comp lib="0" loc="(760,340)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="c_o"/>
+      <a name="labelloc" val="east"/>
+      <a name="owner" val="unknown"/>
+      <a name="date" val="01.09.20 10:51:00"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="ae4e2ec8-778e-478c-94d2-22399925bd56"/>
+      <a name="integrity" val="3560b106ff529de9a38374335c9eb741412d0e81"/>
+    </comp>
+    <comp lib="0" loc="(760,300)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="4"/>
+      <a name="label" val="r_o"/>
+      <a name="labelloc" val="east"/>
+      <a name="owner" val="unknown"/>
+      <a name="date" val="01.09.20 10:51:00"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="157ce214-e84b-493e-9eab-f09328a6b3ab"/>
+      <a name="integrity" val="b3a176db8596756512d25a5705ba63ecca36a570"/>
+    </comp>
+    <comp lib="0" loc="(290,350)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="label" val="b_i"/>
+      <a name="owner" val="unknown"/>
+      <a name="date" val="01.09.20 10:50:22"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="3bed6ccf-f2fd-4208-ada0-5f18d72123f7"/>
+      <a name="integrity" val="aa941945e3c797fb3a6a76c2d6c9688c1fa65ec6"/>
+    </comp>
+    <comp lib="0" loc="(290,320)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="label" val="a_i"/>
+      <a name="owner" val="unknown"/>
+      <a name="date" val="01.09.20 10:50:22"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="df92b897-401d-4e49-b32b-ec4d53b9e3c0"/>
+      <a name="integrity" val="a9d8d0120e9947893d61d8c99efde0006fb207b8"/>
+    </comp>
+    <comp lib="7" loc="(4,50)" name="Text" trackercomp="true">
+      <a name="text" val="Attention, votre version de Logisim"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,100)" name="Text" trackercomp="true">
+      <a name="text" val="ne contient pas de tracker. Si vous"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,150)" name="Text" trackercomp="true">
+      <a name="text" val="enregistrez votre projet, toutes les"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,200)" name="Text" trackercomp="true">
+      <a name="text" val="informations du tracker seront"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,250)" name="Text" trackercomp="true">
+      <a name="text" val="définitivement effacées."/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+  </circuit>
+  <circuit name="AddSub4bit">
+    <a name="circuit" val="AddSub4bit"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif bold 12"/>
+    <a name="circuitnamedbox" val="true"/>
+    <a name="circuitvhdlpath" val=""/>
+    <comp lib="0" loc="(290,320)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="label" val="a_i"/>
+      <a name="owner" val="unknown"/>
+      <a name="date" val="01.09.20 10:50:22"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="c7d8959e-ab12-446c-aed1-6b34b9526e61"/>
+      <a name="integrity" val="f934642c6d28412f21e8aa2bbc9deba798636138"/>
+    </comp>
+    <comp lib="0" loc="(760,300)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="4"/>
+      <a name="label" val="r_o"/>
+      <a name="labelloc" val="east"/>
+      <a name="owner" val="unknown"/>
+      <a name="date" val="01.09.20 10:51:00"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="e1f1d6e7-6147-4340-98ac-5ccdd2aa34f0"/>
+      <a name="integrity" val="f04a852f6b3dea4f980dba5383e9712b16a5e01e"/>
+    </comp>
+    <comp lib="0" loc="(290,350)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="label" val="b_i"/>
+      <a name="owner" val="unknown"/>
+      <a name="date" val="01.09.20 10:50:22"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="2cf17874-dd0a-4e9b-8382-dda9039e817d"/>
+      <a name="integrity" val="637b8ffcec46eb8755d4f754fd36269adc49791d"/>
+    </comp>
+    <comp lib="0" loc="(760,340)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="c_o"/>
+      <a name="labelloc" val="east"/>
+      <a name="owner" val="unknown"/>
+      <a name="date" val="01.09.20 10:51:00"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="2e78f04e-8193-480d-b06f-fb74577bc36e"/>
+      <a name="integrity" val="efef5207f23b9bcd89f2af6b401850f7e377aabe"/>
+    </comp>
+    <comp lib="0" loc="(270,280)" name="Pin">
+      <a name="label" val="sel_i"/>
+      <a name="owner" val="unknown"/>
+      <a name="date" val="01.09.20 10:53:24"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="ae942851-7cd0-40a9-a41b-761959a4762a"/>
+      <a name="integrity" val="dda3bfaf027d5f5a2326729a9b474850dac524b5"/>
+    </comp>
+    <comp lib="7" loc="(4,50)" name="Text" trackercomp="true">
+      <a name="text" val="Attention, votre version de Logisim"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,100)" name="Text" trackercomp="true">
+      <a name="text" val="ne contient pas de tracker. Si vous"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,150)" name="Text" trackercomp="true">
+      <a name="text" val="enregistrez votre projet, toutes les"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,200)" name="Text" trackercomp="true">
+      <a name="text" val="informations du tracker seront"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,250)" name="Text" trackercomp="true">
+      <a name="text" val="définitivement effacées."/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+  </circuit>
+  <circuit name="Add8bit">
+    <a name="circuit" val="Add8bit"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif bold 12"/>
+    <a name="circuitnamedbox" val="true"/>
+    <a name="circuitvhdlpath" val=""/>
+    <comp lib="0" loc="(90,150)" name="Pin">
+      <a name="label" val="c_i"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="03.09.19 14:32:17"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="1cebb63b-c54f-40dc-990f-d64d974542a0"/>
+      <a name="integrity" val="51a56d5a6d9aa56c0d4741a4d337b6560e7bfe7c"/>
+    </comp>
+    <comp lib="0" loc="(150,190)" name="Pin">
+      <a name="width" val="8"/>
+      <a name="label" val="a_i"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="03.09.19 14:32:25"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="134362eb-ec12-469d-a8c6-0eaab7afece0"/>
+      <a name="integrity" val="090522a866f9a890d207cee1217042692ecafa2c"/>
+    </comp>
+    <comp lib="0" loc="(150,260)" name="Pin">
+      <a name="width" val="8"/>
+      <a name="label" val="b_i"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="03.09.19 14:32:25"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="5620a367-9265-403a-9273-9f3f96323450"/>
+      <a name="integrity" val="0d26128c080c0b228fc63c4c5f724a6a717e591d"/>
+    </comp>
+    <comp lib="0" loc="(550,310)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="c_o"/>
+      <a name="labelloc" val="east"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="03.09.19 14:32:48"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="774d2e9a-232d-4709-9e94-d426f19be25d"/>
+      <a name="integrity" val="70702991635c0ef8c32b803e1ad8ba9af3c63e1e"/>
+    </comp>
+    <comp lib="0" loc="(520,210)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="label" val="r_o"/>
+      <a name="labelloc" val="east"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="03.09.19 14:32:48"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="17216564-3680-4b4c-8833-5bc2042c7745"/>
+      <a name="integrity" val="c147d7054b669a464a8be1b432c2c1b37d40a29d"/>
+    </comp>
+    <comp lib="7" loc="(4,50)" name="Text" trackercomp="true">
+      <a name="text" val="Attention, votre version de Logisim"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,100)" name="Text" trackercomp="true">
+      <a name="text" val="ne contient pas de tracker. Si vous"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,150)" name="Text" trackercomp="true">
+      <a name="text" val="enregistrez votre projet, toutes les"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,200)" name="Text" trackercomp="true">
+      <a name="text" val="informations du tracker seront"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,250)" name="Text" trackercomp="true">
+      <a name="text" val="définitivement effacées."/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+  </circuit>
+  <circuit name="AddSub8bit">
+    <a name="circuit" val="AddSub8bit"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif bold 12"/>
+    <a name="circuitnamedbox" val="true"/>
+    <a name="circuitvhdlpath" val=""/>
+    <comp lib="0" loc="(200,150)" name="Pin">
+      <a name="width" val="8"/>
+      <a name="label" val="a_i"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="03.09.19 14:35:36"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="a408f0b5-3dbc-49f0-9e28-16fc2a0501e9"/>
+      <a name="integrity" val="62dfd348c48d0676b4d486bd73c9cb5bd8f9ed27"/>
+    </comp>
+    <comp lib="0" loc="(200,230)" name="Pin">
+      <a name="width" val="8"/>
+      <a name="label" val="b_i"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="03.09.19 14:34:43"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="0eab85bd-f205-4b2a-9d71-9a1e4c16cd3d"/>
+      <a name="integrity" val="a93768ceeb103ce980ae1165fa686bde7775904b"/>
+    </comp>
+    <comp lib="0" loc="(140,100)" name="Pin">
+      <a name="label" val="sel_i"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="03.09.19 14:34:57"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="04486aa1-de96-4e08-9114-d8e77d0587fd"/>
+      <a name="integrity" val="1f113706ed97324162a9329a2daa95bd071dbbcb"/>
+    </comp>
+    <comp lib="0" loc="(570,130)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="label" val="r_o"/>
+      <a name="labelloc" val="east"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="03.09.19 14:33:57"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="23636b91-2e69-4695-8f4f-ac1d51dbf0ca"/>
+      <a name="integrity" val="04f71d7d5d67ceea4a5a3ac1d5950bcf4962d432"/>
+    </comp>
+    <comp lib="0" loc="(630,160)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="c_o"/>
+      <a name="labelloc" val="east"/>
+      <a name="owner" val="unknown"/>
+      <a name="date" val="01.09.20 10:55:08"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="f654021a-cc0f-40d3-a6ff-57cb1fefd6e2"/>
+      <a name="integrity" val="f7dbf2a00cdea2295d12f8a013ca60ffadc7a967"/>
+    </comp>
+    <comp lib="7" loc="(4,50)" name="Text" trackercomp="true">
+      <a name="text" val="Attention, votre version de Logisim"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,100)" name="Text" trackercomp="true">
+      <a name="text" val="ne contient pas de tracker. Si vous"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,150)" name="Text" trackercomp="true">
+      <a name="text" val="enregistrez votre projet, toutes les"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,200)" name="Text" trackercomp="true">
+      <a name="text" val="informations du tracker seront"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,250)" name="Text" trackercomp="true">
+      <a name="text" val="définitivement effacées."/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+  </circuit>
+  <circuit name="Checksum">
+    <a name="circuit" val="Checksum"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif bold 12"/>
+    <a name="circuitnamedbox" val="true"/>
+    <a name="circuitvhdlpath" val=""/>
+    <comp lib="0" loc="(580,80)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="label" val="r_o"/>
+      <a name="labelloc" val="east"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="03.09.19 14:36:28"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="76d80dd0-3064-48ee-b0a3-f8a87565e97b"/>
+      <a name="integrity" val="ff669c4707b4c3a8cfa53826404b9b7cb10970c6"/>
+    </comp>
+    <comp lib="0" loc="(130,160)" name="Pin">
+      <a name="width" val="8"/>
+      <a name="label" val="a_i"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="03.09.19 14:36:38"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="15dc24bf-819f-4d2d-a13c-4d5b1bfbabfe"/>
+      <a name="integrity" val="757286e359c518cd7c9330cc25bfbe3b397e8c79"/>
+    </comp>
+    <comp lib="0" loc="(130,180)" name="Pin">
+      <a name="width" val="8"/>
+      <a name="label" val="b_i"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="03.09.19 14:36:38"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="7c871743-98fc-4d98-94b2-553f97903a30"/>
+      <a name="integrity" val="8f76238464e398443a9d30a51a46c384f331fbfd"/>
+    </comp>
+    <comp lib="0" loc="(130,230)" name="Pin">
+      <a name="width" val="8"/>
+      <a name="label" val="c_i"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="03.09.19 14:36:38"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="7c871743-98fc-4d98-94b2-553f97903a30"/>
+      <a name="integrity" val="8f76238464e398443a9d30a51a46c384f331fbfd"/>
+    </comp>
+    <comp lib="7" loc="(4,50)" name="Text" trackercomp="true">
+      <a name="text" val="Attention, votre version de Logisim"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,100)" name="Text" trackercomp="true">
+      <a name="text" val="ne contient pas de tracker. Si vous"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,150)" name="Text" trackercomp="true">
+      <a name="text" val="enregistrez votre projet, toutes les"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,200)" name="Text" trackercomp="true">
+      <a name="text" val="informations du tracker seront"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,250)" name="Text" trackercomp="true">
+      <a name="text" val="définitivement effacées."/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+  </circuit>
+  <circuit name="VerifyIntegrity">
+    <a name="circuit" val="VerifyIntegrity"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif bold 12"/>
+    <a name="circuitnamedbox" val="true"/>
+    <a name="circuitvhdlpath" val=""/>
+    <comp lib="0" loc="(120,130)" name="Pin">
+      <a name="width" val="8"/>
+      <a name="label" val="a_i"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="03.09.19 14:38:28"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="d3ca15c0-927b-4c4c-92db-af04cc4cac51"/>
+      <a name="integrity" val="c391ad77bc78ab094291b6f57e616c2e8721f49a"/>
+    </comp>
+    <comp lib="0" loc="(120,160)" name="Pin">
+      <a name="width" val="8"/>
+      <a name="label" val="b_i"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="03.09.19 14:38:28"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="0370635f-b8b7-4030-925b-a8ab1ce25c9a"/>
+      <a name="integrity" val="f4bd20b40c5ea257e14d8d58a7903d253fcfd0e3"/>
+    </comp>
+    <comp lib="0" loc="(120,230)" name="Pin">
+      <a name="width" val="8"/>
+      <a name="label" val="c_i"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="03.09.19 14:38:28"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="0370635f-b8b7-4030-925b-a8ab1ce25c9a"/>
+      <a name="integrity" val="f4bd20b40c5ea257e14d8d58a7903d253fcfd0e3"/>
+    </comp>
+    <comp lib="0" loc="(120,260)" name="Pin">
+      <a name="width" val="8"/>
+      <a name="label" val="d_i"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="03.09.19 14:38:28"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="763d45f3-34de-49a4-b846-98cbb45bfef6"/>
+      <a name="integrity" val="abd7ab1f574032154fbd46b6976c2b3fafdc48a3"/>
+    </comp>
+    <comp lib="0" loc="(630,110)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="verif_checksum_o"/>
+      <a name="labelloc" val="east"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="03.09.19 14:39:06"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="d0c7c4c8-411f-4668-94d9-264935b92a21"/>
+      <a name="integrity" val="fdce2ae45b75991db0b49d6b704447b3b59f6663"/>
+    </comp>
+    <comp lib="7" loc="(4,50)" name="Text" trackercomp="true">
+      <a name="text" val="Attention, votre version de Logisim"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,100)" name="Text" trackercomp="true">
+      <a name="text" val="ne contient pas de tracker. Si vous"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,150)" name="Text" trackercomp="true">
+      <a name="text" val="enregistrez votre projet, toutes les"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,200)" name="Text" trackercomp="true">
+      <a name="text" val="informations du tracker seront"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,250)" name="Text" trackercomp="true">
+      <a name="text" val="définitivement effacées."/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+  </circuit>
+</project>
