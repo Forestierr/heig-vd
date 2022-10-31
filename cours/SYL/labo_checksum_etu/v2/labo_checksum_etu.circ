@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project integrity="888ca45df5662ff8bbb28328dd55e728e0664da5" source="2.16.8.t" version="1.0">
-  This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
-
-  <lib desc="#Wiring" name="0">
+<project integrity="7a500e09bc2595ba67632fb1801144b2710507bc" source="2.16.8.t" version="1.0">
+This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
+<lib desc="#Wiring" name="0">
     <tool name="Splitter">
       <a name="facing" val="north"/>
       <a name="fanout" val="1"/>
@@ -38,9 +37,6 @@
     </tool>
   </lib>
   <lib desc="#Gates" name="1">
-    <tool name="NOT Gate">
-      <a name="width" val="4"/>
-    </tool>
     <tool name="Buffer">
       <a name="width" val="4"/>
     </tool>
@@ -74,44 +70,44 @@
   <lib desc="#I/O" name="5"/>
   <lib desc="#HDL-IP" name="6">
     <tool name="VHDL Entity">
-      <a name="content">--------------------------------------------------------------------------------
--- HEIG-VD, institute REDS, 1400 Yverdon-les-Bains
--- Project :
--- File    :
--- Autor   :
--- Date    :
---
---------------------------------------------------------------------------------
--- Description :
---
---------------------------------------------------------------------------------
-
-library ieee;
-  use ieee.std_logic_1164.all;
-  --use ieee.numeric_std.all;
-
-entity VHDL_Component is
-  port(
-  ------------------------------------------------------------------------------
-  --Insert input ports below
-    horloge_i  : in  std_logic;                    -- input bit example
-    val_i      : in  std_logic_vector(3 downto 0); -- input vector example
-  ------------------------------------------------------------------------------
-  --Insert output ports below
-    max_o      : out std_logic;                    -- output bit example
-    cpt_o      : out std_logic_Vector(3 downto 0)  -- output vector example
-    );
-end VHDL_Component;
-
---------------------------------------------------------------------------------
---Complete your VHDL description below
-architecture type_architecture of VHDL_Component is
-
-
-begin
-
-
-end type_architecture;
+      <a name="content">--------------------------------------------------------------------------------&#13;
+-- HEIG-VD, institute REDS, 1400 Yverdon-les-Bains&#13;
+-- Project :&#13;
+-- File    :&#13;
+-- Autor   :&#13;
+-- Date    :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+-- Description :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+library ieee;&#13;
+  use ieee.std_logic_1164.all;&#13;
+  --use ieee.numeric_std.all;&#13;
+&#13;
+entity VHDL_Component is&#13;
+  port(&#13;
+  ------------------------------------------------------------------------------&#13;
+  --Insert input ports below&#13;
+    horloge_i  : in  std_logic;                    -- input bit example&#13;
+    val_i      : in  std_logic_vector(3 downto 0); -- input vector example&#13;
+  ------------------------------------------------------------------------------&#13;
+  --Insert output ports below&#13;
+    max_o      : out std_logic;                    -- output bit example&#13;
+    cpt_o      : out std_logic_Vector(3 downto 0)  -- output vector example&#13;
+    );&#13;
+end VHDL_Component;&#13;
+&#13;
+--------------------------------------------------------------------------------&#13;
+--Complete your VHDL description below&#13;
+architecture type_architecture of VHDL_Component is&#13;
+&#13;
+&#13;
+begin&#13;
+&#13;
+&#13;
+end type_architecture;&#13;
 </a>
     </tool>
   </lib>
@@ -1155,6 +1151,7 @@ end TCL_Generic;
     <wire from="(660,500)" to="(660,510)"/>
     <wire from="(640,120)" to="(640,130)"/>
     <wire from="(640,520)" to="(640,530)"/>
+    <wire from="(830,320)" to="(870,320)"/>
     <wire from="(120,460)" to="(150,460)"/>
     <wire from="(120,340)" to="(150,340)"/>
     <wire from="(650,120)" to="(670,120)"/>
@@ -1165,8 +1162,8 @@ end TCL_Generic;
     <wire from="(650,520)" to="(670,520)"/>
     <wire from="(760,310)" to="(780,310)"/>
     <wire from="(730,350)" to="(760,350)"/>
-    <wire from="(640,180)" to="(670,180)"/>
     <wire from="(640,220)" to="(670,220)"/>
+    <wire from="(640,180)" to="(670,180)"/>
     <wire from="(640,260)" to="(670,260)"/>
     <wire from="(640,60)" to="(670,60)"/>
     <wire from="(640,340)" to="(670,340)"/>
@@ -1182,10 +1179,10 @@ end TCL_Generic;
     <wire from="(290,280)" to="(320,280)"/>
     <wire from="(290,320)" to="(320,320)"/>
     <wire from="(640,310)" to="(670,310)"/>
-    <wire from="(640,350)" to="(670,350)"/>
-    <wire from="(640,70)" to="(670,70)"/>
     <wire from="(640,190)" to="(670,190)"/>
+    <wire from="(640,350)" to="(670,350)"/>
     <wire from="(640,390)" to="(670,390)"/>
+    <wire from="(640,70)" to="(670,70)"/>
     <wire from="(640,470)" to="(670,470)"/>
     <wire from="(480,530)" to="(490,530)"/>
     <wire from="(480,170)" to="(490,170)"/>
@@ -1196,13 +1193,12 @@ end TCL_Generic;
     <wire from="(770,300)" to="(780,300)"/>
     <wire from="(770,340)" to="(780,340)"/>
     <wire from="(640,370)" to="(650,370)"/>
-    <wire from="(670,490)" to="(670,500)"/>
     <wire from="(670,90)" to="(670,100)"/>
     <wire from="(660,360)" to="(660,370)"/>
+    <wire from="(670,490)" to="(670,500)"/>
     <wire from="(650,510)" to="(650,520)"/>
     <wire from="(650,110)" to="(650,120)"/>
     <wire from="(640,380)" to="(640,390)"/>
-    <wire from="(830,320)" to="(850,320)"/>
     <wire from="(120,400)" to="(150,400)"/>
     <wire from="(120,280)" to="(150,280)"/>
     <wire from="(600,130)" to="(620,130)"/>
@@ -1213,15 +1209,15 @@ end TCL_Generic;
     <wire from="(760,330)" to="(780,330)"/>
     <wire from="(300,550)" to="(320,550)"/>
     <wire from="(300,590)" to="(320,590)"/>
-    <wire from="(640,320)" to="(670,320)"/>
-    <wire from="(640,480)" to="(670,480)"/>
-    <wire from="(640,200)" to="(670,200)"/>
     <wire from="(640,80)" to="(670,80)"/>
+    <wire from="(640,320)" to="(670,320)"/>
+    <wire from="(640,200)" to="(670,200)"/>
+    <wire from="(640,480)" to="(670,480)"/>
     <wire from="(480,260)" to="(490,260)"/>
     <wire from="(480,300)" to="(490,300)"/>
-    <wire from="(420,550)" to="(490,550)"/>
-    <wire from="(420,150)" to="(490,150)"/>
     <wire from="(660,240)" to="(670,240)"/>
+    <wire from="(420,150)" to="(490,150)"/>
+    <wire from="(420,550)" to="(490,550)"/>
     <wire from="(670,220)" to="(670,230)"/>
     <wire from="(650,240)" to="(650,250)"/>
     <wire from="(760,220)" to="(760,310)"/>
@@ -1233,18 +1229,18 @@ end TCL_Generic;
     <wire from="(600,260)" to="(620,260)"/>
     <wire from="(640,500)" to="(660,500)"/>
     <wire from="(730,220)" to="(760,220)"/>
-    <wire from="(640,50)" to="(670,50)"/>
+    <wire from="(640,130)" to="(670,130)"/>
+    <wire from="(640,330)" to="(670,330)"/>
     <wire from="(640,450)" to="(670,450)"/>
     <wire from="(640,490)" to="(670,490)"/>
-    <wire from="(640,210)" to="(670,210)"/>
-    <wire from="(640,130)" to="(670,130)"/>
-    <wire from="(640,90)" to="(670,90)"/>
-    <wire from="(640,330)" to="(670,330)"/>
     <wire from="(640,530)" to="(670,530)"/>
+    <wire from="(640,90)" to="(670,90)"/>
+    <wire from="(640,210)" to="(670,210)"/>
+    <wire from="(640,50)" to="(670,50)"/>
     <wire from="(480,390)" to="(490,390)"/>
     <wire from="(480,430)" to="(490,430)"/>
-    <wire from="(420,280)" to="(490,280)"/>
     <wire from="(660,370)" to="(670,370)"/>
+    <wire from="(420,280)" to="(490,280)"/>
     <wire from="(250,430)" to="(320,430)"/>
     <wire from="(640,110)" to="(650,110)"/>
     <wire from="(640,510)" to="(650,510)"/>
@@ -1255,7 +1251,6 @@ end TCL_Generic;
     </comp>
     <comp loc="(600,530)" name="AddSub8bit"/>
     <comp loc="(420,280)" name="Checksum"/>
-    <comp lib="0" loc="(480,530)" name="Constant"/>
     <comp lib="0" loc="(290,450)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="8"/>
@@ -1279,15 +1274,6 @@ end TCL_Generic;
       <a name="label" val="b_i"/>
     </comp>
     <comp lib="0" loc="(480,390)" name="Constant"/>
-    <comp lib="0" loc="(620,530)" name="Splitter">
-      <a name="fanout" val="8"/>
-      <a name="incoming" val="8"/>
-      <a name="owner" val="robin_forestier"/>
-      <a name="date" val="14.10.22 11:39:04"/>
-      <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="02fb02b9-e645-4e7f-af72-558bd5a9d848"/>
-      <a name="integrity" val="1867998960318d858ecd4fc40c56c3ba7da1f51a"/>
-    </comp>
     <comp lib="0" loc="(480,260)" name="Constant"/>
     <comp lib="0" loc="(290,280)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -1303,39 +1289,12 @@ end TCL_Generic;
       <a name="uuid" val="02fb02b9-e645-4e7f-af72-558bd5a9d848"/>
       <a name="integrity" val="1867998960318d858ecd4fc40c56c3ba7da1f51a"/>
     </comp>
-    <comp lib="1" loc="(730,350)" name="NOR Gate">
-      <a name="inputs" val="8"/>
-      <a name="owner" val="robin_forestier"/>
-      <a name="date" val="14.10.22 11:39:46"/>
-      <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="1beaf1dd-547b-425c-a952-203cc06d5aac"/>
-      <a name="integrity" val="b15060487056786cff15ac636dad56237b2f5ca9"/>
-    </comp>
     <comp lib="0" loc="(480,300)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="8"/>
       <a name="label" val="c_i"/>
     </comp>
     <comp loc="(600,130)" name="AddSub8bit"/>
-    <comp lib="0" loc="(850,320)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="verif_checksum_o"/>
-      <a name="labelloc" val="east"/>
-      <a name="owner" val="gaetan_matthey"/>
-      <a name="date" val="03.09.19 14:39:06"/>
-      <a name="version" val="2.14.8.t"/>
-      <a name="uuid" val="d0c7c4c8-411f-4668-94d9-264935b92a21"/>
-      <a name="integrity" val="fdce2ae45b75991db0b49d6b704447b3b59f6663"/>
-    </comp>
-    <comp lib="1" loc="(730,490)" name="NOR Gate">
-      <a name="inputs" val="8"/>
-      <a name="owner" val="robin_forestier"/>
-      <a name="date" val="14.10.22 11:39:46"/>
-      <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="1beaf1dd-547b-425c-a952-203cc06d5aac"/>
-      <a name="integrity" val="b15060487056786cff15ac636dad56237b2f5ca9"/>
-    </comp>
     <comp lib="1" loc="(730,90)" name="NOR Gate">
       <a name="inputs" val="8"/>
       <a name="owner" val="robin_forestier"/>
@@ -1478,6 +1437,43 @@ end TCL_Generic;
       <a name="version" val="2.14.8.t"/>
       <a name="uuid" val="d3ca15c0-927b-4c4c-92db-af04cc4cac51"/>
       <a name="integrity" val="c391ad77bc78ab094291b6f57e616c2e8721f49a"/>
+    </comp>
+    <comp lib="0" loc="(480,530)" name="Constant"/>
+    <comp lib="1" loc="(730,350)" name="NOR Gate">
+      <a name="inputs" val="8"/>
+      <a name="owner" val="robin_forestier"/>
+      <a name="date" val="14.10.22 11:39:46"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="1beaf1dd-547b-425c-a952-203cc06d5aac"/>
+      <a name="integrity" val="b15060487056786cff15ac636dad56237b2f5ca9"/>
+    </comp>
+    <comp lib="0" loc="(620,530)" name="Splitter">
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+      <a name="owner" val="robin_forestier"/>
+      <a name="date" val="14.10.22 11:39:04"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="02fb02b9-e645-4e7f-af72-558bd5a9d848"/>
+      <a name="integrity" val="1867998960318d858ecd4fc40c56c3ba7da1f51a"/>
+    </comp>
+    <comp lib="1" loc="(730,490)" name="NOR Gate">
+      <a name="inputs" val="8"/>
+      <a name="owner" val="robin_forestier"/>
+      <a name="date" val="14.10.22 11:39:46"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="1beaf1dd-547b-425c-a952-203cc06d5aac"/>
+      <a name="integrity" val="b15060487056786cff15ac636dad56237b2f5ca9"/>
+    </comp>
+    <comp lib="0" loc="(870,320)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="verif_checksum_o"/>
+      <a name="labelloc" val="east"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="03.09.19 14:39:06"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="d0c7c4c8-411f-4668-94d9-264935b92a21"/>
+      <a name="integrity" val="fdce2ae45b75991db0b49d6b704447b3b59f6663"/>
     </comp>
     <comp lib="7" loc="(4,50)" name="Text" trackercomp="true">
       <a name="text" val="Attention, votre version de Logisim"/>
