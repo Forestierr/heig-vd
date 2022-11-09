@@ -11,6 +11,7 @@ public :
     Point (float pX, float pY) : x(pX), y(pY) {}
     void deplacer (float pX, float pY);
     void afficher ();
+    friend std::ostream& operator<<(std::ostream& os, const Point& point);
 private :
     float x;
     float y;

@@ -10,5 +10,7 @@ int main()
     p.deplacer(3, 5);
     p.afficher();
 
+    cout << p << endl;
+
     return EXIT_SUCCESS;
 }

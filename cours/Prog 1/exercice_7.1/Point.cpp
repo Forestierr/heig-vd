@@ -15,3 +15,9 @@ void Point::afficher ()
 {
     cout << "x, y : " << x << ", " << y << endl;
 }
+
+ostream& operator<<(ostream& os, const Point& point)
+{
+    os << point.x << ", " << point.y << endl;
+    return os;
+}
