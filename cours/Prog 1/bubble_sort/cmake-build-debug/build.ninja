@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_bubble_sort: phony || CMakeFiles/bubble_
 
 build CMakeFiles/bubble_sort.dir/main.cpp.obj: CXX_COMPILER__bubble_sort_Debug C$:/Users/robin/Documents/HEIG/heig-vd-git/cours/Prog$ 1/bubble_sort/main.cpp || cmake_object_order_depends_target_bubble_sort
   DEP_FILE = CMakeFiles\bubble_sort.dir\main.cpp.obj.d
-  FLAGS = -g -std=gnu++20
+  FLAGS = -Wall -Wextra -Wconversion -Wsign-conversion -pedantic -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\bubble_sort.dir
   OBJECT_FILE_DIR = CMakeFiles\bubble_sort.dir
   TARGET_COMPILE_PDB = CMakeFiles\bubble_sort.dir\
@@ -66,7 +66,7 @@ build CMakeFiles/bubble_sort.dir/main.cpp.obj: CXX_COMPILER__bubble_sort_Debug C
 # Link the executable bubble_sort.exe
 
 build bubble_sort.exe: CXX_EXECUTABLE_LINKER__bubble_sort_Debug CMakeFiles/bubble_sort.dir/main.cpp.obj
-  FLAGS = -g
+  FLAGS = -Wall -Wextra -Wconversion -Wsign-conversion -pedantic -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\bubble_sort.dir
   POST_BUILD = cd .
