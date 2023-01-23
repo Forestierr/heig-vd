@@ -2,12 +2,25 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cours/Prog 1/Welcome" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/cours/Prog 1/chapitre-05-Forestierr" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cours/Prog 1/chapitre-06-Forestierr" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cours/Prog 1/chapitre-06-Forestierr/cmake-build-debug/_deps/libdio-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cours/Prog 1/chapitre-07-Forestierr" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cours/Prog 1/chapitre-08-Forestierr" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cours/Prog 1/chapitre-08-Forestierr/cmake-build-debug/_deps/libdio-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cours/Prog 1/chapitre-08-Forestierr/cmake-build-prg1/_deps/libdio-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cours/Prog 1/chapitre-09-Forestierr" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cours/Prog 1/chapitre-09-Forestierr/cmake-build-debug/_deps/libdio-src" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/cours/Prog 1/lab02-mandelbrot-team-robin-f-boris-h" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/cours/Prog 1/lab04-life-Forestierr" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/cours/Prog 1/lab05-refactor-robin-antoine" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cours/Prog 1/lab06-lastrobotstanding-forble" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cours/Prog 1/lab06-lastrobotstanding-forble/cmake-build-debug/_deps/libdio-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cours/Prog 1/lab06-lastrobotstanding-forble/cmake-build-debug/_deps/librobots-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cours/Prog 1/lab07-parsing-guillaume-robin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cours/Prog 1/lab08-messages-david-robin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cours/Prog 1/lab08-messages-david-robin/cmake-build-debug/_deps/libdio-src" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/cours/Prog 1/labo-03-pussance-4" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cours/Prog 1/test_git" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cours/Prog 1/prg1f-io" vcs="Git" />
   </component>
 </project>

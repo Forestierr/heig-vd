@@ -8,5 +8,6 @@
 /cours/Prog 1/exercice_tictactoe_1P/cmake-build-debug/
 /cours/Prog 1/optimisation/cmake-build-debug/
 /cours/Prog 1/test_pointeur/cmake-build-debug/
-.idea/vcs.xml
+.idea/
 cmake-build-debug/
+.idea/vcs.xml
