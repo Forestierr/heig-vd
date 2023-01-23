@@ -1,0 +1,153 @@
+L’après-midi du 13 décembre 2022, un couple : Cloé et Christian - faisaient un voyage
+en voiture.
+Sur l’autoroute de la forêt nationale d’Angeles, à 60km à l’est de Los Angeles - Christian
+perd le contrôle du véhicule.
+Elle perd l’adhérence à la route, se retourne et commence à faire des tonneaux - plongeant
+à reculons dans un canyon rocheux de 100 mètres de profondeur.
+Ils heurtent un arbre, puis un deuxième - avant que leur véhicule s’écrase au fond du
+canyon.
+
+Du moins, ce qu’il en reste.
+Habituellement, les sauveteurs ne viennent à cet endroit que pour constater la mort
+des victimes de ce genre d’accident - mais par miracle : les deux ont survécu.
+Ils sont même que très légèrement blessés - mais en état de choc, au fond d’un canyon
+invisible depuis la route - et sans réseau téléphonique.
+C’est là qu’un deuxième miracle se produit.
+Cloé ramasse son téléphone - et parvient à lire, derrière le verre brisé de l’écran
+- que son iPhone a déjà appelé à l’aide, et que les secours sont en route.
+Quelques semaines plut tôt, elle avait changé d’opérateur mobile et son nouveau forfait
+venait avec un nouveau téléphone.
+Cloé a choisi l’iPhone 14, qui venait de sortir - sans se douter que ce choix allait
+leur sauver la vie.
+Derrière cette histoire de fou, il y a une technologie fascinante : la détection automatique
+d’accidents de voiture couplée à la connexion satellitaire pour contacter les urgences,
+même là où vous n’avez aucun réseau.
+Je vais prendre quelques minutes vous expliquer comment tout ça fonctionne, et vous allez
+voir que ce système pourrait changer votre vie - même
+si
+elle n’est pas en danger.
+L’iPhone de Cloé a contacté les secours locaux pour les prévenir, et leur a fourni
+la localisation de la voiture.
+30 minutes après l’accident, Cloé et Christian étaient pris en charge en hélicoptère.
+Si elle avait choisi n’importe quel autre téléphone, personne n’aurait su où les
+chercher - ni même qu’il fallait - les chercher.
+Et elle ne savait même pas que cette technologie existait.
+En fait il y a deux technos qui leur ont sauvé la vie :
+La première c’est la détection d’accident, conçue pour détecter les collisions graves
+en voiture.
+L’iPhone détecte l’accident, vous demande si tout va bien, et si vous ne répondez pas,
+il contacte les secours.
+Le problème, c’est que si vous êtes dans une zone reculée - en montagne, ou en mer
+- sans réseau, impossible de contacter qui que ce soit.
+C’est là qu’intervient la deuxième techno, celle qui nous intéresse aujourd’hui : la
+connexion satellitaire.
+Que vous veniez d’avoir un accident de voiture, ou n’importe quelle situation d’urgence
+: quand l’iPhone ne parvient pas à trouver un réseau - il se connecte à un satellite
+à 500km de la terre pour transmettre votre localisation aux secours les plus proches.
+Vous avez bien entendu.
+Un court questionnaire apparait à l’écran, pour comprendre en quelques clics la nature
+de l’urgence, puis une interface vous indique où pointer votre iPhone pour vous connecter
+à un des 24 satellites qui se baladent dans l’orbite terrestre.
+Vous suivez un satellite du regard, comme vous suivez le AirTag accroché à vos clés
+que vous avez encore laisser tomber derrière un coussin.
+Ça c’est hyper important, parce qu’on va y revenir - une connexion directe entre
+un smartphone et un satellite et quelques limites, et parmi elles, le téléphone doit
+être pointé en direction du satellite pour établir la connexion.
+Une fois la connexion établie, il envoie toutes les informations nécessaires aux secours
+: vos réponses aux questionnaires si vous avez pu y répondre, votre identifiant médical
+avec des informations sur qui vous êtes, vos contacts d’urgence pour prévenir vos
+proches, votre localisation précise, et le temps restant de la batterie de votre iPhone.
+Au-delà d’être techniquement impressionnant, c’est une avancée majeure, qui en étendant
+la portée des services d’urgence dans les zones mortes, va sauver des vies - mais tout
+ça doit nous inciter à nous poser une question plus philosophique : qui va financer ce bordel
+?
+Apple paye 95% du financement nécessaire pour aider leur partenaire Globalstar à lancer
+de nouveaux satellites - en échange de 85% de leur réseau total.
+Les stations terrestres chargées de réceptionner les données transmises par les satellites
+- ont été mises à jour avec un matériel créé spécifiquement pour Apple.
+300 employés de GlobalStar vont rejoindre les équipes d’Apple pour travailler uniquement
+sur les appels d’urgence de l’iPhone.
+Ils ont dépensé 450 millions de $ pour une fonction qu’ils souhaitent que vous n’utilisez
+jamais.
+Je me trompe peut-être, mais je crois que derrière ce genre d’investissement, il
+y a un modèle économique.
+Et surprise, il y en a un - c’est juste qu’on le connait pas encore.
+Apple a annoncé que la connexion satellitaire serait gratuite pendant deux ans - alors qu’est-ce
+qui va se passer après ? On en sait rien.
+Il va y avoir des gens sauvés par leur iPhone dans des zones coupées du monde - encore
+en décembre un homme s’est retrouvé coincé au milieu de la neige en Alaska, et s’en
+est sorti grâce à la connexion satellitaire - on peut déjà parler d’exemples au pluriel
+et l’iPhone 14 vient de sortir.
+Les deux prochaines années, Apple va faire intervenir ces gens - pour qu’ils témoignent
+comment l’iPhone les a sauvés d’une mort certaine - dans les conférences et dans les
+pubs - parce que le message marketing est diablement puissant : achetez un iPhone, ou
+mourrez dans un canyon.
+J’ai du mal à imaginer que dans deux ans, Apple rende la fonction satellitaire de secours
+payante, transformant le message en : achetez un iPhone et survivez, moyennant une certaine
+somme.
+Vous imaginez ce gars qui tombe dans un ravin dans deux ans et un jour ? Pas de chance.
+Quand bien même ils souhaiteraient le commercialiser, combien de gens sont prêts à payer tous
+les mois une fonction - au cas où ils se retrouvent par hasard au milieu du désert
+? Ça a le pouvoir de vous sauver la vie, mais
+ça passera après l’abonnement Netflix.
+J’y crois pas une seconde - je crois qu’ils ont quelque chose de bien plus sexy en tête.
+C’est peut-être un hasard, mais le premier iPhone à bénéficier de la connexion satellitaire,
+est également - aux États-Unis - le premier à se séparer du lecteur de carte SIM.
+Et si les appels d’urgences étaient un prétexte ?
+Un moyen de prendre de l’expérience dans la connexion satellitaire et de développer
+sa constellation - dans l’objectif d’étendre la couverture et d’accélérer la vitesse
+de connexion - pour ne plus se limiter aux situations de vie ou de mort.
+Il est peut-être là, le modèle économique.
+Au lieu d’attendre que vous soyez coincés dans un ravin pour être utilisés, les satellites
+d’Apple pourraient vous fournir une connexion constante à internet, pour utiliser votre
+iPhone au quotidien - envoyer des messages, passer des appels, et regarder cette vidéo
+- où que vous soyez.
+Un abonnement que vous prenez dans les réglages, qui s’active instantanément, sans passer
+par un opérateur classique.
+Je crois qu’Apple a pour projet de devenir votre opérateur téléphonique.
+J’y crois, mais il y a un paquet de limites technologiques à franchir pour y parvenir,
+parce que la connexion satellitaire est très complexe à domestiquer.
+La première contrainte c’est que vous devez avoir un accès direct au ciel.
+Si vous êtes à l’intérieur d’un bâtiment, ou entouré de gratte-ciel - la connexion
+sera impossible ou à minima affectée.
+Vous devez être dans un espace ouvert, et littéralement pointer votre iPhone vers un
+satellite pour que ça fonctionne.
+Ensuite, un satellite se déplace rapidement - à environ 26.000 km/h - il a une faible
+bande passante, et attention petite différence avec les antennes téléphoniques actuelles
+- il se trouve en orbite basse, entre 500 et 1000km d’altitude.
+Si vous vous posez la question, ça a un impact sur la vitesse de connexion.
+L’envoi d’un message - même très court - peut prendre entre 15 secondes et plusieurs
+minutes, selon la météo et l’environnement qui vous entoure.
+La bande passante est si limitée qu’Apple a du concevoir un algorithme de compression
+de texte - pour réduire la taille moyenne des messages, de 300%.
+Alors il est difficile d’imaginer regarder - grâce à un satellite - un film en 4K sur
+Netflix, dans seulement 2 ans.
+Mais il faut se rendre compte que ce que fait l’iPhone 14 est déjà un exploit.
+Parvenir à intégrer les composants nécessaires à la connexion directe avec un satellite
+dans ce format, sans antenne, c’est une avancée majeure.
+On peut considérer que c’est une beta, mais dans la mesure où elle permet déjà
+de sauver des vies, le mieux que rien est plus qu’acceptable.
+Je crois fermement qu’Apple a pour ambition de devenir votre opérateur mobile, mais ça
+va prendre du temps.
+En revanche, je pense qu’il est possible qu’Apple envisage de proposer dès 2025
+- un abonnement en plus de votre forfait actuel - pour que quand le réseau mobile ou wifi
+n’est plus à la hauteur, les satellites prennent le relai.
+Ça vous parle peut-être pas si vous êtes dans une grande ville, parce qu’on a la
+chance de toujours être connectés - mais ça va changer la vie des gens qui se trouvent
+dans des zones moins bien desservies - cette technologie a le pouvoir de mettre fin aux
+zones blanches - ce qui à l’ère du télétravail va permettre à des pays comme la France de
+faire son émancipation des grandes villes.
+Il y a déjà un marché - Starlink, une entreprise de SpaceX - qui commercialise des antennes
+satellitaires - fournit déjà la connexion internet de 1 million de foyers dans le monde.
+Son fondateur Elon Musk a évoqué des discussions avec Apple autour d’une collaboration, qui
+permettrait à la marque de passer d’une constellation de 24 satellites - à 3000 - qui
+se trouvent déjà, au dessus de nos têtes.
+D’ici 2025, à savoir dans deux ans, Starlink prévoit d’en avoir 12.000.
+L’association de l’expertise spatiale de Starlink et de la sensibilité d’interface
+d’Apple - a le pouvoir de mettre lentement fin à la quasi-totalité des fournisseurs
+d’accès à internet dans le monde.
+L’iPhone 14 n’a pas seulement sauvé des vies - par sa simple mise sur le marché - il
+vient de lancer une nouvelle course à l’espace, qui va toucher toute la planète.
+Il y a des chances pour que les bébés nés en 2020 ne connaissent même pas le concept,
+de ne pas avoir de réseau.
+Merci à tous, merci à NordVPN, c’était Léo Duff.
